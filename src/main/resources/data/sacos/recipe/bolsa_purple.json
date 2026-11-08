@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "sacos:bolsa"
+		},
+		{
+			"item": "minecraft:purple_dye"
+		}
+	],
+	"result": {
+		"id": "sacos:bolsa_purple",
+		"count": 1
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "sacos",
+	"version": "${version}",
+	"name": "Sacos de Dedsafio 4",
+	"description": "Bolsa, Ender Bag y Phora Bag: sacos con inventario propio.",
+	"authors": [
+		"Dedsafio fan"
+	],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/sacos/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sacos.SacosMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

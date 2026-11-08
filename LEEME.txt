@@ -1,0 +1,33 @@
+SACOS DE DEDSAFIO 4 - Mod Fabric para Minecraft 1.21.1
+=====================================================
+
+Items (clic derecho para abrir). Todos con /give @s sacos:<id> o en la pestana "Herramientas" del creativo:
+  - Bolsa (marron, sacos:bolsa)      27 espacios. Se craftea con cuero + hilo.
+  - Bolsas de colores (15 tintes)    27 espacios. Bolsa marron + tinte = bolsa de ese color.
+      sacos:bolsa_white, bolsa_orange, bolsa_magenta, bolsa_light_blue, bolsa_yellow, bolsa_lime,
+      bolsa_pink, bolsa_gray, bolsa_light_gray, bolsa_cyan, bolsa_purple, bolsa_blue, bolsa_green,
+      bolsa_red, bolsa_black
+      !!! Al teñir, el contenido de la bolsa marron se PIERDE. Vaciala antes.
+  - Bolsa Ender (sacos:ender_bag)    Abre tu ender chest. Se craftea con Bolsa + Ender Chest.
+  - Bolsa Primigenia (sacos:bolsa_primigenia)  27 espacios, la beige. No se craftea.
+  - Bolsa Phora (sacos:phora_bag)    54 espacios (6x9), negra con lava. No se craftea.
+  - Bolsa Gleba (sacos:bolsa_gleba)  32 espacios (4 filas x 8 columnas), rosada con huesos. No se craftea.
+  Las bolsas no se pueden meter dentro de otras bolsas.
+
+Los crafteos estan en src/main/resources/data/sacos/recipe/ (un archivo por receta).
+COMO HACER EL .JAR
+------------------
+Opcion A - en tu PC (necesitas Java JDK 25, instalador "Temurin" de adoptium.net):
+  1. Descomprime este zip.
+  2. Abre una terminal DENTRO de la carpeta (en Windows: escribe cmd en la barra de la carpeta).
+  3. Windows:  gradlew build        Mac/Linux:  ./gradlew build
+  4. El mod queda en build/libs/ -> usa el .jar que NO termina en -sources.
+  (La primera vez tarda unos minutos porque descarga Minecraft y Fabric.)
+
+Opcion B - sin instalar nada (GitHub):
+  1. Crea una cuenta gratis en github.com y un repositorio nuevo.
+  2. Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github).
+  3. Pestana "Actions" -> espera a que termine -> abajo en "Artifacts" descarga el .jar.
+
+Para jugar necesitas Fabric Loader y Fabric API para Minecraft 1.21.1.
+Si al compilar sale un error, copiamelo y lo arreglo.
